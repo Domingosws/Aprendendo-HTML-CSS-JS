@@ -3,7 +3,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
+    height:max-content;
     background-image:linear-gradient(to right,#734226, #BF926B,#8C6645);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main{
     background-color: #EBEEF2;
