@@ -27,8 +27,13 @@ h1{
     margin:auto;
     text-align: center;
 }
-p{
+article{
+text-align: justify;  
+text-indent: 20px;          
+}
+section{
     text-align: justify;
+    text-indent: 20px;
 }
 #header{
     justify-content: center;
