@@ -49,15 +49,29 @@ section{
 }
 @font-face {
     font-family:'titulo';
-    src: url('../projeto01/fontes/Cut\ the\ crap.ttf') format('truetype');
+    src: url('fontes/Cut\ the\ crap.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family:'texto' ;
+    src: url(fontes/Pacifico-Regular.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'acinatura';
+    src: url('fontes/ComforterBrush-Regular.ttf')format('truetype');
+}
+article{
+    font-family: 'texto';
+}
+p{
+    font-family: 'acinatura';
+}
 footer{
-    color: #EBEEF2;
+    color: #402312;
     text-align:center;
    font-weight: bolder;
-    font-size: 0.9em;
+    font-size: 3em;
     padding-left:35px;
   
 }
