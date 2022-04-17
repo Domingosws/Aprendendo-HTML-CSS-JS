@@ -27,6 +27,16 @@ h1{
     margin:auto;
     text-align: center;
 }
+h2{
+    font-family:'titulo', times, serif;
+    background: #EBEEF2;
+    box-shadow: 10px 10px 10px #402312;
+    border-radius: 15px;
+    width:600px;
+    padding:-17px;
+    margin:auto;
+    text-align: center;  
+}
 article{
 text-align: justify;  
 text-indent: 20px;          
@@ -54,7 +64,7 @@ section{
     font-style: normal;
 }
 @font-face {
-    font-family:'texto' ;
+    font-family:'texto';
     src: url(fontes/Pacifico-Regular.ttf)format('truetype');
 }
 @font-face {
